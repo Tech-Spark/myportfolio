@@ -39,7 +39,7 @@ export default function FormContact() {
     <div className="form-contact">
       <form ref={form} onSubmit={sendEmail}>
         <div>
-          <label htmlFor="user_name">Name</label>
+          <label htmlFor="name">Name</label>
           <input
             type="text"
             minLength="3"
