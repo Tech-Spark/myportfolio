@@ -46,32 +46,32 @@ export default function FormContact() {
             maxLength="50"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            name="user_name"
+            name="name"
             required
           />
           <em></em>
         </div>
         <div>
-          <label htmlFor="user_email">Email</label>
+          <label htmlFor="email">Email</label>
           <input
             type="email"
             minLength="8"
             maxLenght="50"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            name="user_email"
+            name="email"
             required
           />
           <em></em>
         </div>
         <div>
-          <label htmlFor="user_subject">Subject</label>
+          <label htmlFor="subject">Subject</label>
           <input
             type="text"
             maxLength="100"
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
-            name="user_subject"
+            name="subject"
           />
           <em></em>
         </div>
@@ -84,7 +84,7 @@ export default function FormContact() {
             rows="10"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            maxLength="10000"
+            maxLength="5000"
             required></textarea>
           <em></em>
         </div>
